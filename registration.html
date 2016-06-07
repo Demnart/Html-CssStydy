@@ -5,16 +5,61 @@
 </head>
 <body>
 <ul>
-	<li><a href="html-cssstudy.git/articles.html">Статьи</a></li>
-	<li><a href="html-cssstudy.git/Katalog.html">Каталог</a></li>
-	<li><a href="html-cssstudy.git/ImgGallary.html">Галерея</a></li>
-	<li><a href="html-cssstudy.git/registration.html">Регистрация </a></li>
-	<li><a href="html-cssstudy.git/contacts.html">Контакты</a></li>
+	<li><a href="articles.html">Статьи</a></li>
+	<li><a href="Katalog.html">Каталог</a></li>
+	<li><a href="ImgGallary.html">Галерея</a></li>
+	<li><a href="registration.html">Регистрация </a></li>
+	<li><a href="contacts.html">Контакты</a></li>
 	</ul>
 	<form>
 	<fieldset>
 	<legend>Фамилия</legend>
-	<input type="text" name="FirstName" size="50">
+	<input type="text" name="FirstName" size="20">
+	</fieldset>
+	<fieldset>
+		<legend>Имя</legend>
+		<input type="text" name="SecondName" size="20">
+	</fieldset>
+	<fieldset>
+		<legend>Отчество</legend>
+		<input type="text" name="Thirdname" size="20">
+	</fieldset>
+	<fieldset>
+		<legend>Укажите ваш пол</legend>
+		<input type="radio" name="gender" value="M">Мужской
+		<input type="radio" name="gender" value="W">Женский
+	</fieldset>
+	<fieldset>
+		<legend>Дата Рождения</legend>
+		<input type="date" name="calendar">
+	</fieldset>
+	<fieldset>
+		<legend>Загрузите фотографию</legend>
+		<input type="file" name="Foto">
+	</fieldset>
+	<fieldset>
+		<legend>Пароль</legend>
+		<input type="passeord" name="password">
+	</fieldset>
+	<fieldset>
+		<legend>Введите адрес вашего сайта</legend>
+		<input type="text" name="site" value="http://">
+	</fieldset>
+	<fieldset>
+		<legend>Что вы любите делать на выходных</legend>
+		<p><input type="checkbox" name="value1">Спать</p>
+		<p><input type="checkbox" name="value2">Читать</p>
+		<p><input type="checkbox" name="value3">Гулять</p>
+		<p><input type="checkbox" name="value4">Играть</p>
+		<p><input type="checkbox" name="value5">Пить</p>
+	</fieldset>
+	<fieldset>
+	<legend>Немного о себе</legend>
+	<textarea cols="100" rows="10"></textarea>
+	</fieldset>
+	<fieldset>
+		<input type="submit" name="submit" value="Отправить">
+		<input type="reset" name="reset" value="Очистить">
 	</fieldset>
 
 <FOOTER align = "center"> &copy</FOOTER><div align="center">&copy</div>
