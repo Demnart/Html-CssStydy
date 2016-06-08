@@ -1,7 +1,86 @@
  body{
 	background-image: url(midi.png);
 	background-repeat: no-repeat;
-	background-position: top;
+	background-position: right top;	
+}
 
+li.midi {
+	font-family: "Arial";
+	color: #7B68EE;
+}
+ h1{
+	text-align:center;
+}
+a.nope{
+	text-decoration: none;
+	color:#7CFC00;
+	border-bottom: 1px solid;
+}
+p.om{
+	background-color: #EEDD82;
+}
+#less:hover{
+	text-decoration: none;
+	color: #FF0000;
+}
+#less1{
+	color: #8B8989;
+}
+ul.mod{
+	list-style-image: url(cont.png);
+	font-size: 20px;
+	width: 200px;
+	background-color: #FFFAFA;
+
+}
+ul.mid{
+	list-style-image: url(add.png);
+	font-size: 15px;
+	width: 200px;
+	background-color: #FFEFD5;
+}
+li.new::after{
+	content: url(new.png);
+	
+}
+#fon{
+	background-image: url(fon.png);
+	background-repeat: repeat;
+	border: 2px solid;
+	border-image: ;
+}
+input[type="text"]{
+	width: 200px;
+
+}
+input[type="password"]{
+	width: 150px;
+}
+
+#email:focus{
+	background-color: #BEBEBE;
+	color: #000080;
+}
+input[type="submit"]:active{
+	background-color: #00FFFF;
+}
+input[type="reset"]:active{
+	background-color: #FF4500;
+}
+input[type="radio"]:hover{
+	border: 3px dotted red;
+}
+ .img a img{
+	border:2px solid;
+}
+.img:hover img{	
+border:0px;
+margin: 2px;
+}
+.big{
+	text-transform: capitalize;
+}
+.bord:hover{
+	border: 2px green dotted;
 	
 }
